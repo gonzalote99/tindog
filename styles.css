@@ -1,0 +1,160 @@
+
+body {
+  margin: 0;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.viewport {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.nav-container svg {
+  width: 34px;
+  height: 34px;
+}
+
+.nav-container button {
+  border: 0;
+  background: white;
+}
+
+#paw {
+  padding: 10.5em 2em;
+  border-radius: 34px;
+  background: linear-gradient(to left, #f83375 2.5%, #F83773, #FA695A );
+}
+
+#paw path {
+  fill: white;
+}
+
+main {
+  height: 78%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dog {
+  position: absolute;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.status {
+  justify-content: flex-start;
+}
+
+.status-tag {
+  padding: 3em 0 0 1.5em;
+}
+
+.status-tag img {
+  width: 50%;
+  transform: rotate(-30deg);
+}
+
+.bio {
+  justify-content: flex-end;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 1em 1em;
+}
+
+.profile h2 {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.profile p {
+  margin: 0px;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+img {
+  width: 98%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.message {
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+footer {
+  height: 20%;
+  display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container button {
+  border: 0px;
+  background: white;
+  border-radius: 100%;
+  padding: 1.8em;
+  margin: 0 0.8em;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#like:hover {
+  background: #DBFFF4;
+}
+
+#dislike:hover {
+  background: #FFE7EF;
+}
+
+svg {
+  height: 40px;
+   width: 40px;
+}
+
+@media screen and(min-width: 415px) {
+  .viewport {
+    max-width: 414px;
+    max-height: 896px;
+  }
+}
